@@ -55,8 +55,6 @@ Proyecto_Final_IA/
 ├── requirements.txt
 └── README.md
 
----
-
 ## Instalación y Ejecución
 
 ```bash
@@ -64,8 +62,7 @@ Proyecto_Final_IA/
 git clone https://github.com/bnarvaezcristiana-ai2004/Proyecto_Final_IA.git
 cd Proyecto_Final_IA
 
-# 2. Crear y activar entorno virtual
-python -m venv venv
+# 2. Activar entorno virtual
 source venv/bin/activate
 
 # 3. Instalar dependencias
@@ -80,19 +77,21 @@ python src/imagenes/train.py   # Componente Imágenes — CNN
 
 ## Arquitecturas
 
-### MLP — Tabular
+### MLP — Tabular─ README.md
+
 Entrada(5) → Linear(256) → BN → ReLU → Dropout(0.4)
 → Linear(128) → BN → ReLU → Dropout(0.4)
-→ Linear(2)   [logits]
-Parámetros: 35 458  |  Early stopping: época 47
+→ Linear(2) [logits]
+Parámetros: 35 458 | Early stopping: época 47
 
 ### CNN — Imágenes
+
 Entrada(3×128×128)
 → Conv(32)  → BN → ReLU → MaxPool  →  32×64×64
 → Conv(64)  → BN → ReLU → MaxPool  →  64×32×32
 → Conv(128) → BN → ReLU → MaxPool  → 128×16×16
 → Flatten → Linear(512) → Dropout(0.5) → Linear(3)
-Parámetros: 16 872 963  |  Early stopping: época 28
+Parámetros: 16 872 963 | Early stopping: época 28
 
 ---
 
