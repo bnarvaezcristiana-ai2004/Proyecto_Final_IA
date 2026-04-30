@@ -1,0 +1,14 @@
+MÉTRICAS EN TEST — CNN Imágenes
+========================================
+Accuracy global: 0.9457
+
+Reporte por clase:
+                       precision    recall  f1-score   support
+
+Potato___Early_blight       0.94      0.94      0.94        32
+ Potato___Late_blight       0.90      0.93      0.91        28
+     Potato___healthy       1.00      0.97      0.98        32
+
+             accuracy                           0.95        92
+            macro avg       0.94      0.94      0.94        92
+         weighted avg       0.95      0.95      0.95        92

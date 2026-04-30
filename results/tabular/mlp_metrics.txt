@@ -1,0 +1,16 @@
+MÉTRICAS EN TEST — MLP Tabular
+========================================
+Accuracy : 0.9886
+Precision: 0.9020  (avg=binary)
+Recall   : 0.8846   (avg=binary)
+F1-Score : 0.8932   (avg=binary)
+
+Reporte por clase:
+              precision    recall  f1-score   support
+
+           1       0.99      0.99      0.99       916
+           2       0.90      0.88      0.89        52
+
+    accuracy                           0.99       968
+   macro avg       0.95      0.94      0.94       968
+weighted avg       0.99      0.99      0.99       968
