@@ -20,12 +20,15 @@ El proyecto clasifica datos tabulares e imágenes usando redes neuronales entren
 
 ## Estructura
 Proyecto_Final_IA/
-├── data/proyecto_final/
-│   ├── tabular/phpnThNfi.arff
-│   └── imagenes/potato_subset/
-│       ├── Potato___Early_blight/
-│       ├── Potato___Late_blight/
-│       └── Potato___healthy/
+├── data/
+│   └── proyecto_final/
+│       ├── tabular/
+│       │   └── phpnThNfi.arff
+│       └── imagenes/
+│           └── potato_subset/
+│               ├── Potato___Early_blight/
+│               ├── Potato___Late_blight/
+│               └── Potato___healthy/
 ├── src/
 │   ├── tabular/
 │   │   ├── data_loader.py
@@ -50,7 +53,7 @@ Proyecto_Final_IA/
 │   ├── referencias.bib
 │   └── main.pdf
 ├── requirements.txt
-└─---
+└── README.md
 
 ## Instalación y Ejecución
 
